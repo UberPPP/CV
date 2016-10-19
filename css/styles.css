@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 
+	Background-Styles 
+*/
+.circle {
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 126px;
+  	background: white;
+  	border-radius: 50%;
+  	border: 1px solid #3d6cb0;
+  	height: 180px;
+  	width: 180px;
+  	margin: 0;
+}
+.circle1 {
+
+	display: block;
+	background: #3d6cb0;
+	border-radius: 50%;
+	height: 87.2%;
+	width: 87.2%;
+	margin: 6.4% auto;
+}
+.name {
+	display: block;
+	position: absolute;
+	top: 242px;
+	left: 109px;
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('fonts/MyriadProRegular.eot');
+    src: url('fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('fonts/MyriadProRegular.woff2') format('woff2'),
+         url('fonts/MyriadProRegular.woff') format('woff'),
+         url('fonts/MyriadProRegular.ttf') format('truetype'),
+         url('fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+@font-face {
+  font-family: 'MyriadProBold';
+    src: url('fonts/MyriadProBold.eot');
+    src: url('fonts/MyriadProBold.eot') format('embedded-opentype'),
+         url('fonts/MyriadProBold.woff2') format('woff2'),
+         url('fonts/MyriadProBold.woff') format('woff'),
+         url('fonts/MyriadProBold.ttf') format('truetype'),
+         url('fonts/MyriadProBold.svg#MyriadProBold') format('svg');
+
+}
+h1 {
+	font-size: 48px;
+	font-family: MyriadProRegular;
+}
+h1 span{
+	font-size: 48px;
+	font-family: MyriadProBold;
+}
