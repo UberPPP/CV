@@ -12,7 +12,7 @@
   	border: 1px solid #3d6cb0;
   	height: 180px;
   	width: 180px;
-  	margin: 0;
+  	
 }
 .circle1 {
 
@@ -26,8 +26,9 @@
 .name {
 	display: block;
 	position: absolute;
-	top: 242px;
-	left: 109px;
+	top: 253px;
+	left: 66px;
+	list-style-type: none;
 }
 @font-face {
     font-family: 'MyriadProRegular';
@@ -48,11 +49,57 @@
          url('fonts/MyriadProBold.svg#MyriadProBold') format('svg');
 
 }
-h1 {
-	font-size: 48px;
+li:first-child {
+	font-size: 41px;
 	font-family: MyriadProRegular;
+	
 }
-h1 span{
+li:nth-child(2) {
 	font-size: 48px;
 	font-family: MyriadProBold;
+	line-height: 30px;
+}
+li:nth-child(3) {
+	font-size: 19px;
+	font-family: MyriadProBold;
+	line-height: 50px;
+	text-align: center;
+}
+
+.circle0 {
+	display: block;
+	position: absolute;
+	top: 443px;
+	left: 47px;
+  	background: white;
+  	border-radius: 50%;
+  	border: 1px solid #3d6cb0;
+  	height: 57px;
+  	width: 57px;
+  	
+}
+
+.circle01 {
+
+	display: block;
+	background: #3d6cb0;
+	border-radius: 50%;
+	height: 90%;
+	width: 90%;
+	margin: 5% auto;
+}
+img {
+	 position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.profile {
+	
+}
+hr {
+	display: inline-block;
+	vertical-align: middle;
 }
